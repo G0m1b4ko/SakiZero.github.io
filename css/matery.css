@@ -241,7 +241,7 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #6dc5f8 0%, #227adf 100%);
 }
 
 .text-color {
@@ -594,7 +594,7 @@ header .go-back i {
 }
 
 @-webkit-keyframes rainbow {
-
+/*
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -637,10 +637,11 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
+*/
 }
 
 @keyframes rainbow {
-
+/*
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -683,6 +684,7 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
+*/
 }
 
 .index-card {
@@ -1865,8 +1867,13 @@ footer .copy-right {
     margin: -15px 0 10px 10px;
 }
 
+p.search-result-summary{
+    margin: 15px 0 0 -8px;
+}
+
 #searchResult .search-result-list {
     margin-left: -8px;
+    margin-top: 0px;
     padding-left: 0;
     color: #666;
 }
